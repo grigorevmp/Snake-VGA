@@ -1,7 +1,7 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-//Date        : Tue Jan  9 22:01:43 2024
+//Date        : Fri Jan 12 00:18:28 2024
 //Host        : grigorev-mp running 64-bit major release  (build 9200)
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -210,7 +210,7 @@ module design_1
         .vga_hsync(AXIS2VGA_IP_0_vga_hsync),
         .vga_red(AXIS2VGA_IP_0_vga_red),
         .vga_vsync(AXIS2VGA_IP_0_vga_vsync));
-  design_1_SNAKEGAME2AXIS_0_1 SNAKEGAME2AXIS_0
+  design_1_SNAKEGAME2AXIS_0_6 SNAKEGAME2AXIS_0
        (.clk(processing_system7_0_FCLK_CLK1),
         .fifo_data_c(axis_data_fifo_0_axis_rd_data_count),
         .int_r(SNAKEGAME2AXIS_0_int_r),

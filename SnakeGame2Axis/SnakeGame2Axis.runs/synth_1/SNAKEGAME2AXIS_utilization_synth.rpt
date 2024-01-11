@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Sun Jan  7 02:06:57 2024
+| Date         : Fri Jan 12 00:12:57 2024
 | Host         : grigorev-mp running 64-bit major release  (build 9200)
 | Command      : report_utilization -file SNAKEGAME2AXIS_utilization_synth.rpt -pb SNAKEGAME2AXIS_utilization_synth.pb
 | Design       : SNAKEGAME2AXIS
@@ -31,13 +31,13 @@ Table of Contents
 +-------------------------+------+-------+------------+-----------+-------+
 |        Site Type        | Used | Fixed | Prohibited | Available | Util% |
 +-------------------------+------+-------+------------+-----------+-------+
-| Slice LUTs*             |   89 |     0 |          0 |     53200 |  0.17 |
-|   LUT as Logic          |   89 |     0 |          0 |     53200 |  0.17 |
+| Slice LUTs*             |   91 |     0 |          0 |     53200 |  0.17 |
+|   LUT as Logic          |   91 |     0 |          0 |     53200 |  0.17 |
 |   LUT as Memory         |    0 |     0 |          0 |     17400 |  0.00 |
-| Slice Registers         |  148 |     0 |          0 |    106400 |  0.14 |
-|   Register as Flip Flop |  148 |     0 |          0 |    106400 |  0.14 |
+| Slice Registers         |  189 |     0 |          0 |    106400 |  0.18 |
+|   Register as Flip Flop |  189 |     0 |          0 |    106400 |  0.18 |
 |   Register as Latch     |    0 |     0 |          0 |    106400 |  0.00 |
-| F7 Muxes                |    4 |     0 |          0 |     26600 |  0.02 |
+| F7 Muxes                |    9 |     0 |          0 |     26600 |  0.03 |
 | F8 Muxes                |    2 |     0 |          0 |     13300 |  0.02 |
 +-------------------------+------+-------+------------+-----------+-------+
 * Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis, if not already completed, for a more realistic count.
@@ -59,7 +59,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
 | 1     |          Yes |         Set |            - |
-| 147   |          Yes |       Reset |            - |
+| 188   |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -148,16 +148,16 @@ Warning! LUT value is adjusted to account for LUT combining.
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     |  147 |        Flop & Latch |
+| FDRE     |  188 |        Flop & Latch |
+| LUT6     |   51 |                 LUT |
 | IBUF     |   45 |                  IO |
-| LUT6     |   39 |                 LUT |
-| LUT2     |   25 |                 LUT |
+| LUT2     |   24 |                 LUT |
 | OBUF     |   19 |                  IO |
-| LUT5     |   16 |                 LUT |
 | LUT4     |   10 |                 LUT |
-| LUT3     |    7 |                 LUT |
+| MUXF7    |    9 |               MuxFx |
+| LUT5     |    9 |                 LUT |
+| LUT3     |    6 |                 LUT |
 | LUT1     |    5 |                 LUT |
-| MUXF7    |    4 |               MuxFx |
 | CARRY4   |    4 |          CarryLogic |
 | MUXF8    |    2 |               MuxFx |
 | FDSE     |    1 |        Flop & Latch |

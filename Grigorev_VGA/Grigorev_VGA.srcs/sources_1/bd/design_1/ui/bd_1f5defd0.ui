@@ -1,52 +1,52 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"1.1135",
-   "Default View_TopLeft":"-2093,-1057",
+   "Default View_ScaleFactor":"0.847519",
+   "Default View_TopLeft":"-2092,-1247",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
 #  -string -flagsOSRD
-preplace port DDR_0 -pg 1 -lvl 9 -x 830 -y -480 -defaultsOSRD
-preplace port FIXED_IO_0 -pg 1 -lvl 9 -x 830 -y -450 -defaultsOSRD
-preplace port port-id_vga_hsync_0 -pg 1 -lvl 9 -x 830 -y -540 -defaultsOSRD
-preplace port port-id_vga_vsync_0 -pg 1 -lvl 9 -x 830 -y -510 -defaultsOSRD
-preplace portBus vga_blue_0 -pg 1 -lvl 9 -x 830 -y -570 -defaultsOSRD
-preplace portBus vga_green_0 -pg 1 -lvl 9 -x 830 -y -600 -defaultsOSRD
-preplace portBus vga_red_0 -pg 1 -lvl 9 -x 830 -y -630 -defaultsOSRD
+preplace port DDR_0 -pg 1 -lvl 10 -x 1080 -y -480 -defaultsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 10 -x 1080 -y -450 -defaultsOSRD
+preplace port port-id_vga_hsync_0 -pg 1 -lvl 10 -x 1080 -y -540 -defaultsOSRD
+preplace port port-id_vga_vsync_0 -pg 1 -lvl 10 -x 1080 -y -510 -defaultsOSRD
+preplace portBus vga_blue_0 -pg 1 -lvl 10 -x 1080 -y -570 -defaultsOSRD
+preplace portBus vga_green_0 -pg 1 -lvl 10 -x 1080 -y -600 -defaultsOSRD
+preplace portBus vga_red_0 -pg 1 -lvl 10 -x 1080 -y -630 -defaultsOSRD
 preplace inst processing_system7_0 -pg 1 -lvl 3 -x -1090 -y -320 -defaultsOSRD
 preplace inst axi_dma_0 -pg 1 -lvl 5 -x -330 -y -760 -defaultsOSRD
-preplace inst axis_data_fifo_0 -pg 1 -lvl 6 -x 40 -y -770 -defaultsOSRD
-preplace inst AXIS2VGA_IP_0 -pg 1 -lvl 8 -x 660 -y -590 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 6 -x 190 -y -760 -defaultsOSRD
+preplace inst AXIS2VGA_IP_0 -pg 1 -lvl 9 -x 920 -y -590 -defaultsOSRD
 preplace inst xlconcat_0 -pg 1 -lvl 2 -x -1530 -y -520 -defaultsOSRD
 preplace inst ps7_0_axi_periph -pg 1 -lvl 4 -x -670 -y -770 -defaultsOSRD
 preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x -1890 -y -160 -defaultsOSRD
 preplace inst axi_mem_intercon -pg 1 -lvl 2 -x -1530 -y -340 -defaultsOSRD
-preplace inst xlconstant_0 -pg 1 -lvl 7 -x 360 -y -560 -defaultsOSRD
-preplace inst SNAKEGAME2AXIS_0 -pg 1 -lvl 7 -x 360 -y -750 -defaultsOSRD
-preplace netloc AXIS2VGA_IP_0_vga_blue 1 8 1 800J -580n
-preplace netloc AXIS2VGA_IP_0_vga_green 1 8 1 NJ -600
-preplace netloc AXIS2VGA_IP_0_vga_hsync 1 8 1 800J -560n
-preplace netloc AXIS2VGA_IP_0_vga_red 1 8 1 800J -630n
-preplace netloc AXIS2VGA_IP_0_vga_vsync 1 8 1 790J -540n
-preplace netloc SNAKEGAME2AXIS_0_int_r 1 1 7 -1690 -620 NJ -620 NJ -620 NJ -620 NJ -620 NJ -620 480
-preplace netloc axi_dma_0_mm2s_introut 1 1 5 -1680 -590 NJ -590 NJ -590 NJ -590 -170
-preplace netloc axis_data_fifo_0_axis_rd_data_count 1 6 1 190 -760n
-preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 -2070 -270 -1690 -220 -1380 -210 -870 -890 -520 -850 -150
-preplace netloc processing_system7_0_FCLK_CLK1 1 3 5 -850 -640 NJ -640 -130J -660 200 -630 490
+preplace inst xlconstant_0 -pg 1 -lvl 8 -x 690 -y -560 -defaultsOSRD
+preplace inst SNAKEGAME2AXIS_0 -pg 1 -lvl 7 -x 480 -y -770 -defaultsOSRD
+preplace netloc AXIS2VGA_IP_0_vga_blue 1 9 1 1060J -580n
+preplace netloc AXIS2VGA_IP_0_vga_green 1 9 1 NJ -600
+preplace netloc AXIS2VGA_IP_0_vga_hsync 1 9 1 1060J -560n
+preplace netloc AXIS2VGA_IP_0_vga_red 1 9 1 1060J -630n
+preplace netloc AXIS2VGA_IP_0_vga_vsync 1 9 1 1050J -540n
+preplace netloc axi_dma_0_mm2s_introut 1 1 5 -1680 -650 NJ -650 NJ -650 NJ -650 -170
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 -2070 -270 -1690 -220 -1380 -210 -870 -900 -510 -860 -160
+preplace netloc processing_system7_0_FCLK_CLK1 1 3 6 -850 -640 -520J -660 -150J -660 360 -620 N -620 770
 preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 4 -2060 -260 -1720 -200 N -200 -880
-preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 7 -1710 -650 N -650 -840 -650 -530 -670 -140 -670 210 -640 500
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 8 -1710 -710 N -710 -850 -890 -530 -850 -140 -850 350 -860 N -860 780
 preplace netloc xlconcat_0_dout 1 2 1 -1390 -520n
-preplace netloc xlconstant_0_dout 1 7 1 N -560
-preplace netloc SNAKEGAME2AXIS_0_AXIS_M 1 7 1 510 -760n
-preplace netloc axi_dma_0_M_AXIS_MM2S 1 5 1 -160 -800n
-preplace netloc axi_dma_0_M_AXI_MM2S 1 1 5 -1700 -900 N -900 N -900 N -900 -170
+preplace netloc xlconstant_0_dout 1 8 1 N -560
+preplace netloc axis_data_fifo_0_axis_rd_data_count 1 6 1 340 -750n
+preplace netloc SNAKEGAME2AXIS_0_int_r 1 1 7 -1700 -920 NJ -920 NJ -920 NJ -920 NJ -920 NJ -920 600
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 5 1 -150 -790n
+preplace netloc axi_dma_0_M_AXI_MM2S 1 1 5 -1690 -910 N -910 N -910 N -910 -170
 preplace netloc axi_mem_intercon_M00_AXI 1 2 1 N -340
-preplace netloc axis_data_fifo_0_M_AXIS 1 6 1 N -780
-preplace netloc processing_system7_0_DDR 1 3 6 -860J -480 NJ -480 NJ -480 NJ -480 NJ -480 NJ
-preplace netloc processing_system7_0_FIXED_IO 1 3 6 -840J -450 NJ -450 NJ -450 NJ -450 NJ -450 NJ
-preplace netloc processing_system7_0_M_AXI_GP0 1 3 1 -880J -830n
-preplace netloc ps7_0_axi_periph_M00_AXI 1 4 1 -530J -790n
-levelinfo -pg 1 -2090 -1890 -1530 -1090 -670 -330 40 360 660 830
-pagesize -pg 1 -db -bbox -sgen -2090 -1300 990 200
+preplace netloc processing_system7_0_DDR 1 3 7 NJ -370 NJ -370 NJ -370 NJ -370 600 -480 NJ -480 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 3 7 NJ -350 NJ -350 NJ -350 NJ -350 610 -450 NJ -450 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 3 1 -860J -830n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 4 1 -520J -790n
+preplace netloc axis_data_fifo_0_M_AXIS 1 6 1 340 -800n
+preplace netloc SNAKEGAME2AXIS_0_AXIS_M 1 7 2 N -780 790
+levelinfo -pg 1 -2090 -1890 -1530 -1090 -670 -330 190 480 690 920 1080
+pagesize -pg 1 -db -bbox -sgen -2090 -1300 1240 200
 "
 }
 {

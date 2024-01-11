@@ -33,8 +33,8 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_ax
 # IP: bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_xlconstant_0_0 || ORIG_REF_NAME==design_1_xlconstant_0_0} -quiet] -quiet
 
-# IP: bd/design_1/ip/design_1_SNAKEGAME2AXIS_0_1/design_1_SNAKEGAME2AXIS_0_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_SNAKEGAME2AXIS_0_1 || ORIG_REF_NAME==design_1_SNAKEGAME2AXIS_0_1} -quiet] -quiet
+# IP: bd/design_1/ip/design_1_SNAKEGAME2AXIS_0_2/design_1_SNAKEGAME2AXIS_0_2.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_SNAKEGAME2AXIS_0_2 || ORIG_REF_NAME==design_1_SNAKEGAME2AXIS_0_2} -quiet] -quiet
 
 # IP: bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_auto_pc_0 || ORIG_REF_NAME==design_1_auto_pc_0} -quiet] -quiet

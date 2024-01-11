@@ -4,8 +4,8 @@ vhdl xil_defaultlib  \
 "../../../../Grigorev_VGA.ip_user_files/bd/design_1/ipshared/eae1/sources_1/new/AXIS2VGA_IP.vhd" \
 "../../../../Grigorev_VGA.ip_user_files/bd/design_1/ip/design_1_AXIS2VGA_IP_0_0/sim/design_1_AXIS2VGA_IP_0_0.vhd" \
 "../../../../Grigorev_VGA.ip_user_files/bd/design_1/ip/design_1_rst_ps7_0_100M_0/sim/design_1_rst_ps7_0_100M_0.vhd" \
-"../../../../Grigorev_VGA.ip_user_files/bd/design_1/ipshared/d70b/SNAKEGAME2AXIS.vhd" \
-"../../../../Grigorev_VGA.ip_user_files/bd/design_1/ip/design_1_SNAKEGAME2AXIS_0_1/sim/design_1_SNAKEGAME2AXIS_0_1.vhd" \
+"../../../../Grigorev_VGA.ip_user_files/bd/design_1/ipshared/1ba2/SNAKEGAME2AXIS.vhd" \
+"../../../../Grigorev_VGA.ip_user_files/bd/design_1/ip/design_1_SNAKEGAME2AXIS_0_6/sim/design_1_SNAKEGAME2AXIS_0_6.vhd" \
 
 # Do not sort compile order
 nosort

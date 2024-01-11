@@ -1396,16 +1396,16 @@
       },
       "SNAKEGAME2AXIS_0": {
         "vlnv": "xilinx.com:user:SNAKEGAME2AXIS:1.0",
-        "xci_name": "design_1_SNAKEGAME2AXIS_0_1",
-        "xci_path": "ip\\design_1_SNAKEGAME2AXIS_0_1\\design_1_SNAKEGAME2AXIS_0_1.xci",
+        "xci_name": "design_1_SNAKEGAME2AXIS_0_6",
+        "xci_path": "ip\\design_1_SNAKEGAME2AXIS_0_6\\design_1_SNAKEGAME2AXIS_0_6.xci",
         "inst_hier_path": "SNAKEGAME2AXIS_0"
       }
     },
     "interface_nets": {
       "SNAKEGAME2AXIS_0_AXIS_M": {
         "interface_ports": [
-          "SNAKEGAME2AXIS_0/AXIS_M",
-          "AXIS2VGA_IP_0/AXIS_S"
+          "AXIS2VGA_IP_0/AXIS_S",
+          "SNAKEGAME2AXIS_0/AXIS_M"
         ]
       },
       "axi_dma_0_M_AXIS_MM2S": {

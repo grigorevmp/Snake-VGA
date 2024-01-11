@@ -3,10 +3,10 @@ verilog xil_defaultlib  --include "../../../../Grigorev_VGA.gen/sources_1/bd/des
 "../../../../Grigorev_VGA.ip_user_files/bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
 "../../../../Grigorev_VGA.ip_user_files/bd/design_1/ip/design_1_axis_data_fifo_0_0/sim/design_1_axis_data_fifo_0_0.v" \
 "../../../../Grigorev_VGA.ip_user_files/bd/design_1/ip/design_1_xlconcat_0_0/sim/design_1_xlconcat_0_0.v" \
-"../../../../Grigorev_VGA.ip_user_files/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
-"../../../../Grigorev_VGA.ip_user_files/bd/design_1/ip/design_1_auto_pc_1/sim/design_1_auto_pc_1.v" \
 "../../../../Grigorev_VGA.ip_user_files/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
 "../../../../Grigorev_VGA.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../Grigorev_VGA.ip_user_files/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+"../../../../Grigorev_VGA.ip_user_files/bd/design_1/ip/design_1_auto_pc_1/sim/design_1_auto_pc_1.v" \
 "../../../../Grigorev_VGA.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
 
 sv xil_defaultlib  --include "../../../../Grigorev_VGA.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../Grigorev_VGA.gen/sources_1/bd/design_1/ipshared/ee60/hdl" --include "../../../../Grigorev_VGA.gen/sources_1/bd/design_1/ipshared/8713/hdl" --include "D:/Xilinx/Vivado/2022.2/data/xilinx_vip/include" \
