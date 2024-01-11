@@ -10,7 +10,7 @@
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 
 source design_1_wrapper.tcl -notrace
-create_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1003.465 ; gain = 119.789
+create_project: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1001.953 ; gain = 117.656
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Coding/Vivado/Snake-VGA/Snake_AXIS2VGA'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Coding/Vivado/Snake-VGA/SnakeGame2Axis'.
@@ -27,37 +27,37 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 2612
+INFO: [Synth 8-7075] Helper process launched with PID 7148
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1870.281 ; gain = 411.523
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 1871.375 ; gain = 410.973
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'design_1' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:12]
-INFO: [Synth 8-6157] synthesizing module 'design_1_AXIS2VGA_IP_0_0' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-3800-grigorev-mp/realtime/design_1_AXIS2VGA_IP_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_AXIS2VGA_IP_0_0' (0#1) [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-3800-grigorev-mp/realtime/design_1_AXIS2VGA_IP_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'design_1_AXIS2VGA_IP_0_0' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-6012-grigorev-mp/realtime/design_1_AXIS2VGA_IP_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_AXIS2VGA_IP_0_0' (0#1) [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-6012-grigorev-mp/realtime/design_1_AXIS2VGA_IP_0_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'int_r' of module 'design_1_AXIS2VGA_IP_0_0' is unconnected for instance 'AXIS2VGA_IP_0' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:201]
 WARNING: [Synth 8-7023] instance 'AXIS2VGA_IP_0' of module 'design_1_AXIS2VGA_IP_0_0' has 12 connections declared, but only 11 given [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:201]
-INFO: [Synth 8-6157] synthesizing module 'design_1_SNAKEGAME2AXIS_0_1' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-3800-grigorev-mp/realtime/design_1_SNAKEGAME2AXIS_0_1_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_SNAKEGAME2AXIS_0_1' (0#1) [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-3800-grigorev-mp/realtime/design_1_SNAKEGAME2AXIS_0_1_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_dma_0_0' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-3800-grigorev-mp/realtime/design_1_axi_dma_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_dma_0_0' (0#1) [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-3800-grigorev-mp/realtime/design_1_axi_dma_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'design_1_SNAKEGAME2AXIS_0_1' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-6012-grigorev-mp/realtime/design_1_SNAKEGAME2AXIS_0_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_SNAKEGAME2AXIS_0_1' (0#1) [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-6012-grigorev-mp/realtime/design_1_SNAKEGAME2AXIS_0_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_dma_0_0' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-6012-grigorev-mp/realtime/design_1_axi_dma_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_dma_0_0' (0#1) [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-6012-grigorev-mp/realtime/design_1_axi_dma_0_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'mm2s_prmry_reset_out_n' of module 'design_1_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:224]
 WARNING: [Synth 8-7071] port 'axi_dma_tstvec' of module 'design_1_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:224]
 WARNING: [Synth 8-7023] instance 'axi_dma_0' of module 'design_1_axi_dma_0_0' has 40 connections declared, but only 38 given [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:224]
 INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_0' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:487]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_7HNO1D' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:957]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-3800-grigorev-mp/realtime/design_1_auto_pc_1_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (0#1) [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-3800-grigorev-mp/realtime/design_1_auto_pc_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-6012-grigorev-mp/realtime/design_1_auto_pc_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (0#1) [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-6012-grigorev-mp/realtime/design_1_auto_pc_1_stub.v:5]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_7HNO1D' (0#1) [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:957]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_0' (0#1) [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:487]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axis_data_fifo_0_0' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-3800-grigorev-mp/realtime/design_1_axis_data_fifo_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axis_data_fifo_0_0' (0#1) [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-3800-grigorev-mp/realtime/design_1_axis_data_fifo_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axis_data_fifo_0_0' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-6012-grigorev-mp/realtime/design_1_axis_data_fifo_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axis_data_fifo_0_0' (0#1) [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-6012-grigorev-mp/realtime/design_1_axis_data_fifo_0_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'm_axis_tkeep' of module 'design_1_axis_data_fifo_0_0' is unconnected for instance 'axis_data_fifo_0' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:298]
 WARNING: [Synth 8-7071] port 'm_axis_tlast' of module 'design_1_axis_data_fifo_0_0' is unconnected for instance 'axis_data_fifo_0' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:298]
 WARNING: [Synth 8-7023] instance 'axis_data_fifo_0' of module 'design_1_axis_data_fifo_0_0' has 14 connections declared, but only 12 given [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:298]
-INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-3800-grigorev-mp/realtime/design_1_processing_system7_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (0#1) [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-3800-grigorev-mp/realtime/design_1_processing_system7_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-6012-grigorev-mp/realtime/design_1_processing_system7_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (0#1) [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-6012-grigorev-mp/realtime/design_1_processing_system7_0_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'S_AXI_HP0_AWREADY' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:311]
 WARNING: [Synth 8-7071] port 'S_AXI_HP0_BVALID' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:311]
 WARNING: [Synth 8-7071] port 'S_AXI_HP0_WREADY' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:311]
@@ -71,16 +71,16 @@ WARNING: [Synth 8-7071] port 'S_AXI_HP0_WACOUNT' of module 'design_1_processing_
 WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'design_1_processing_system7_0_0' has 109 connections declared, but only 99 given [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:311]
 INFO: [Synth 8-6157] synthesizing module 'design_1_ps7_0_axi_periph_0' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:657]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_UYSKKA' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:1120]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-3800-grigorev-mp/realtime/design_1_auto_pc_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (0#1) [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-3800-grigorev-mp/realtime/design_1_auto_pc_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-6012-grigorev-mp/realtime/design_1_auto_pc_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (0#1) [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-6012-grigorev-mp/realtime/design_1_auto_pc_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'design_1_auto_pc_0' is unconnected for instance 'auto_pc' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:1351]
 WARNING: [Synth 8-7071] port 'm_axi_wstrb' of module 'design_1_auto_pc_0' is unconnected for instance 'auto_pc' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:1351]
 WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'design_1_auto_pc_0' is unconnected for instance 'auto_pc' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:1351]
 WARNING: [Synth 8-7023] instance 'auto_pc' of module 'design_1_auto_pc_0' has 59 connections declared, but only 56 given [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:1351]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_UYSKKA' (0#1) [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:1120]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_ps7_0_axi_periph_0' (0#1) [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:657]
-INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_100M_0' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-3800-grigorev-mp/realtime/design_1_rst_ps7_0_100M_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_100M_0' (0#1) [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-3800-grigorev-mp/realtime/design_1_rst_ps7_0_100M_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_100M_0' [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-6012-grigorev-mp/realtime/design_1_rst_ps7_0_100M_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_100M_0' (0#1) [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/.Xil/Vivado-6012-grigorev-mp/realtime/design_1_rst_ps7_0_100M_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:472]
 WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:472]
 WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [d:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.gen/sources_1/bd/design_1/synth/design_1.v:472]
@@ -198,18 +198,18 @@ WARNING: [Synth 8-7129] Port In100[0] in module xlconcat_v2_1_4_xlconcat is eith
 WARNING: [Synth 8-7129] Port In101[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 1968.352 ; gain = 509.594
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1968.863 ; gain = 508.461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 1968.352 ; gain = 509.594
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1968.863 ; gain = 508.461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 1968.352 ; gain = 509.594
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1968.863 ; gain = 508.461
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1968.352 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1968.863 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -239,23 +239,23 @@ Parsing XDC File [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synt
 Finished Parsing XDC File [D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1968.352 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1968.863 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1968.352 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1968.863 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:25 . Memory (MB): peak = 1968.352 ; gain = 509.594
+Finished Constraint Validation : Time (s): cpu = 00:00:01 ; elapsed = 00:00:28 . Memory (MB): peak = 1968.863 ; gain = 508.461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:25 . Memory (MB): peak = 1968.352 ; gain = 509.594
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:01 ; elapsed = 00:00:28 . Memory (MB): peak = 1968.863 ; gain = 508.461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -534,10 +534,10 @@ Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axi_mem_intercon. (con
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/xlconstant_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/SNAKEGAME2AXIS_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:04 ; elapsed = 00:00:26 . Memory (MB): peak = 1968.352 ; gain = 509.594
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:01 ; elapsed = 00:00:29 . Memory (MB): peak = 1968.863 ; gain = 508.461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:26 . Memory (MB): peak = 1968.352 ; gain = 509.594
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:29 . Memory (MB): peak = 1968.863 ; gain = 508.461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -560,25 +560,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:28 . Memory (MB): peak = 1968.352 ; gain = 509.594
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:02 ; elapsed = 00:00:32 . Memory (MB): peak = 1968.863 ; gain = 508.461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:35 . Memory (MB): peak = 1970.504 ; gain = 511.746
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:03 ; elapsed = 00:00:48 . Memory (MB): peak = 1968.863 ; gain = 508.461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:35 . Memory (MB): peak = 1970.504 ; gain = 511.746
+Finished Timing Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:48 . Memory (MB): peak = 1968.863 ; gain = 508.461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:36 . Memory (MB): peak = 1987.941 ; gain = 529.184
+Finished Technology Mapping : Time (s): cpu = 00:00:03 ; elapsed = 00:00:49 . Memory (MB): peak = 1973.887 ; gain = 513.484
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -596,37 +596,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:06 ; elapsed = 00:00:45 . Memory (MB): peak = 1992.699 ; gain = 533.941
+Finished IO Insertion : Time (s): cpu = 00:00:04 ; elapsed = 00:01:02 . Memory (MB): peak = 1979.660 ; gain = 519.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:06 ; elapsed = 00:00:45 . Memory (MB): peak = 1992.699 ; gain = 533.941
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:04 ; elapsed = 00:01:02 . Memory (MB): peak = 1979.660 ; gain = 519.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:06 ; elapsed = 00:00:45 . Memory (MB): peak = 1992.699 ; gain = 533.941
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:04 ; elapsed = 00:01:02 . Memory (MB): peak = 1979.660 ; gain = 519.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:06 ; elapsed = 00:00:45 . Memory (MB): peak = 1992.699 ; gain = 533.941
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:04 ; elapsed = 00:01:02 . Memory (MB): peak = 1979.660 ; gain = 519.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:45 . Memory (MB): peak = 1992.699 ; gain = 533.941
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:01:02 . Memory (MB): peak = 1979.660 ; gain = 519.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:06 ; elapsed = 00:00:45 . Memory (MB): peak = 1992.699 ; gain = 533.941
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:04 ; elapsed = 00:01:03 . Memory (MB): peak = 1979.660 ; gain = 519.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -660,16 +660,16 @@ Report Cell Usage:
 |9     |OBUF                          |    14|
 +------+------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:06 ; elapsed = 00:00:45 . Memory (MB): peak = 1992.699 ; gain = 533.941
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:04 ; elapsed = 00:01:03 . Memory (MB): peak = 1979.660 ; gain = 519.258
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:42 . Memory (MB): peak = 1992.699 ; gain = 533.941
-Synthesis Optimization Complete : Time (s): cpu = 00:00:06 ; elapsed = 00:00:45 . Memory (MB): peak = 1992.699 ; gain = 533.941
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:59 . Memory (MB): peak = 1979.660 ; gain = 519.258
+Synthesis Optimization Complete : Time (s): cpu = 00:00:04 ; elapsed = 00:01:03 . Memory (MB): peak = 1979.660 ; gain = 519.258
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 2004.785 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1991.711 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2014.531 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2004.559 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -677,7 +677,7 @@ Synth Design complete, checksum: ef2f2c06
 INFO: [Common 17-83] Releasing license: Synthesis
 62 Infos, 130 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:01:08 . Memory (MB): peak = 2014.531 ; gain = 963.477
+synth_design: Time (s): cpu = 00:00:05 ; elapsed = 00:01:12 . Memory (MB): peak = 2004.559 ; gain = 954.043
 INFO: [Common 17-1381] The checkpoint 'D:/Coding/Vivado/Snake-VGA/Grigorev_VGA/Grigorev_VGA.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Jan  7 22:45:22 2024...
+INFO: [Common 17-206] Exiting Vivado at Tue Jan  9 22:05:51 2024...

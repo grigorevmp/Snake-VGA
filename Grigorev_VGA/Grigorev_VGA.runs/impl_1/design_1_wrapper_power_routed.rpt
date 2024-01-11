@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date             : Mon Jan  8 01:22:26 2024
+| Date             : Tue Jan  9 22:10:01 2024
 | Host             : grigorev-mp running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -30,11 +30,11 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.687        |
+| Total On-Chip Power (W)  | 1.689        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
 | Dynamic (W)              | 1.545        |
-| Device Static (W)        | 0.142        |
+| Device Static (W)        | 0.144        |
 | Effective TJA (C/W)      | 11.5         |
 | Max Ambient (C)          | 65.5         |
 | Junction Temperature (C) | 44.5         |
@@ -65,8 +65,8 @@ Table of Contents
 | Block RAM                |     0.003 |      8.5 |       140 |            6.07 |
 | I/O                      |    <0.001 |       14 |       200 |            7.00 |
 | PS7                      |     1.531 |        1 |       --- |             --- |
-| Static Power             |     0.142 |          |           |                 |
-| Total                    |     1.687 |          |           |                 |
+| Static Power             |     0.144 |          |           |                 |
+| Total                    |     1.689 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -89,12 +89,12 @@ Table of Contents
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vccpint   |       1.000 |     0.755 |       0.725 |      0.030 |       NA    | Unspecified | NA         |
-| Vccpaux   |       1.800 |     0.061 |       0.050 |      0.010 |       NA    | Unspecified | NA         |
-| Vccpll    |       1.800 |     0.018 |       0.015 |      0.003 |       NA    | Unspecified | NA         |
+| Vccpint   |       1.000 |     0.750 |       0.720 |      0.030 |       NA    | Unspecified | NA         |
+| Vccpaux   |       1.800 |     0.061 |       0.051 |      0.010 |       NA    | Unspecified | NA         |
+| Vccpll    |       1.800 |     0.017 |       0.014 |      0.003 |       NA    | Unspecified | NA         |
 | Vcco_ddr  |       1.500 |     0.459 |       0.457 |      0.002 |       NA    | Unspecified | NA         |
-| Vcco_mio0 |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vcco_mio1 |       1.800 |     0.002 |       0.001 |      0.001 |       NA    | Unspecified | NA         |
+| Vcco_mio0 |       1.800 |     0.004 |       0.003 |      0.001 |       NA    | Unspecified | NA         |
+| Vcco_mio1 |       1.800 |     0.003 |       0.002 |      0.001 |       NA    | Unspecified | NA         |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |       NA    | Unspecified | NA         |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 
@@ -159,8 +159,8 @@ Table of Contents
 |       U0                 |     0.006 |
 |     axis_data_fifo_0     |     0.002 |
 |       inst               |     0.002 |
-|     processing_system7_0 |     1.532 |
-|       inst               |     1.532 |
+|     processing_system7_0 |     1.531 |
+|       inst               |     1.531 |
 |     ps7_0_axi_periph     |     0.004 |
 |       s00_couplers       |     0.004 |
 +--------------------------+-----------+
