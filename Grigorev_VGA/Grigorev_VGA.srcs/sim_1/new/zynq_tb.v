@@ -118,7 +118,7 @@ module tb;
         #100;
         objects_data = {
             16'b1_0_0000_11_11_11_11_11, 
-            16'b0_0_0000_10_01_11_11_11, 16'b0_0_0000_00_11_11_11_11, 
+            16'b0_0_0000_11_11_11_01_10, 16'b0_0_0000_11_11_11_11_00, 
             EMPTY_OBJECT, EMPTY_OBJECT, EMPTY_OBJECT, EMPTY_OBJECT, EMPTY_OBJECT, EMPTY_OBJECT,
             
             O,O,O,O,O,O,O,O,
@@ -161,11 +161,11 @@ module tb;
         @(irq_flag != 2'b11);
         DUT.design_1_i.processing_system7_0.inst.wait_interrupt(4'b0, irq_status);
         DUT.design_1_i.processing_system7_0.inst.wait_interrupt(4'b1, irq_status);
-        #3500
+        #6000
         
         objects_data = {
             16'b1_0_0000_11_11_11_11_11, 
-            16'b0_0_0000_11_10_01_11_11, 16'b0_0_0000_00_11_11_11_11, 
+            16'b0_0_0000_11_11_01_10_11, 16'b0_0_0000_11_11_11_11_00, 
             EMPTY_OBJECT, EMPTY_OBJECT, EMPTY_OBJECT, EMPTY_OBJECT, EMPTY_OBJECT, EMPTY_OBJECT,
             
             O,O,O,O,O,O,O,O,

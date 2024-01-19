@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_dma_pkg" />
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="lib_pkg" />
+            <top_module name="std" />
+            <top_module name="tb" />
+            <top_module name="vcomponents" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="13,893.946011 us"></ZoomStartTime>
+      <ZoomEndTime time="13,934.864798 us"></ZoomEndTime>
+      <Cursor1Time time="13,928.045000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="321"></NameColumnWidth>
+      <ValueColumnWidth column_width="210"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/tb/EMPTY_OBJECT" type="array">
+      <obj_property name="ElementShortName">EMPTY_OBJECT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">EMPTY_OBJECT[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/O" type="array">
+      <obj_property name="ElementShortName">O[15:0]</obj_property>
+      <obj_property name="ObjectShortName">O[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/clk_w" type="logic">
+      <obj_property name="ElementShortName">clk_w</obj_property>
+      <obj_property name="ObjectShortName">clk_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rst_n_w" type="logic">
+      <obj_property name="ElementShortName">rst_n_w</obj_property>
+      <obj_property name="ObjectShortName">rst_n_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/irq_flag" type="array">
+      <obj_property name="ElementShortName">irq_flag[0:1]</obj_property>
+      <obj_property name="ObjectShortName">irq_flag[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vga_red" type="array">
+      <obj_property name="ElementShortName">vga_red[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vga_red[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vga_green" type="array">
+      <obj_property name="ElementShortName">vga_green[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vga_green[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vga_blue" type="array">
+      <obj_property name="ElementShortName">vga_blue[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vga_blue[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vga_hsync" type="logic">
+      <obj_property name="ElementShortName">vga_hsync</obj_property>
+      <obj_property name="ObjectShortName">vga_hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/vga_vsync" type="logic">
+      <obj_property name="ElementShortName">vga_vsync</obj_property>
+      <obj_property name="ObjectShortName">vga_vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/objects_data" type="array">
+      <obj_property name="ElementShortName">objects_data[0:19727]</obj_property>
+      <obj_property name="ObjectShortName">objects_data[0:19727]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/CLK_PERIOD" type="array">
+      <obj_property name="ElementShortName">CLK_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider136">
+      <obj_property name="label">Game -&gt; Axis</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/design_1_i/SNAKEGAME2AXIS_0/U0/horizontal_pxl_count" type="other">
+      <obj_property name="ElementShortName">horizontal_pxl_count</obj_property>
+      <obj_property name="ObjectShortName">horizontal_pxl_count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/design_1_i/SNAKEGAME2AXIS_0/U0/current_horizontal_pos" type="other">
+      <obj_property name="ElementShortName">current_horizontal_pos</obj_property>
+      <obj_property name="ObjectShortName">current_horizontal_pos</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/design_1_i/SNAKEGAME2AXIS_0/U0/WINDOW_WIDTH" type="other">
+      <obj_property name="ElementShortName">WINDOW_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">WINDOW_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/design_1_i/SNAKEGAME2AXIS_0/U0/vertical_pxl_count" type="other">
+      <obj_property name="ElementShortName">vertical_pxl_count</obj_property>
+      <obj_property name="ObjectShortName">vertical_pxl_count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/design_1_i/SNAKEGAME2AXIS_0/U0/WINDOW_HEIGHT" type="other">
+      <obj_property name="ElementShortName">WINDOW_HEIGHT</obj_property>
+      <obj_property name="ObjectShortName">WINDOW_HEIGHT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/design_1_i/SNAKEGAME2AXIS_0/U0/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/design_1_i/SNAKEGAME2AXIS_0/U0/isLastInBlockLine" type="other">
+      <obj_property name="ElementShortName">isLastInBlockLine</obj_property>
+      <obj_property name="ObjectShortName">isLastInBlockLine</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/design_1_i/SNAKEGAME2AXIS_0/U0/isLastPixel" type="other">
+      <obj_property name="ElementShortName">isLastPixel</obj_property>
+      <obj_property name="ObjectShortName">isLastPixel</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider145">
+      <obj_property name="label">Axis -&gt; VGA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/design_1_i/AXIS2VGA_IP_0/U0/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+</wave_config>
